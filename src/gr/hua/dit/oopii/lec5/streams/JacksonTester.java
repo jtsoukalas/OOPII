@@ -14,7 +14,7 @@ public class JacksonTester {
    
 	public static void main(String args[]) throws InterruptedException{
       JacksonTester tester = new JacksonTester();
-      ArrayList<Student> arraylist_students = new ArrayList<Student>();
+      ArrayList<Student> arraylist_students = new ArrayList<>();
       
       
      try {
