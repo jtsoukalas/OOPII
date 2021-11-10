@@ -14,7 +14,7 @@ public static void main(String Args[]) throws Exception {
 	//setOutExample("file1.txt");			//It writes a String in a File. 
 	//setOutExample("folderEx.txt");		//If the file exists but is a directory rather than a regular file/ cannot be created/ cannot be opened for any other reason: then a [FileNotFoundException is thrown]
 	//setInKeyboard();					//The input is from keyboard.
-	//setInFile(); 						//The input is from File.
+	setInFile(); 						//The input is from File.
 	setErrFile();						//We redirect errors to File.
 }
 
@@ -61,7 +61,7 @@ public static void setErrFile() throws Exception {
 	System.err.println("This goes to the console");
 	PrintStream console = System.err;
 
-	File file = new File("err.txt");
+	File file = new File("myerr.txt");
 	FileOutputStream fos = new FileOutputStream(file);
 	PrintStream ps = new PrintStream(fos);
 	System.setErr(ps);

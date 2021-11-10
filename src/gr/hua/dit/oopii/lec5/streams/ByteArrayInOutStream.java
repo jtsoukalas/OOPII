@@ -19,7 +19,7 @@ public class ByteArrayInOutStream {
 	         // printing the characters
 	         System.out.print((char)b[x]  + "   "); 
 	      }
-	      System.out.println("   ");
+	      System.out.println("  ");
 	      
 	      int c;
 	      ByteArrayInputStream bInput = new ByteArrayInputStream(b);	//Creates a new ByteArrayInputStream from b so that it uses buf as its buffer array. 
