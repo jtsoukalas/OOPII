@@ -3,7 +3,6 @@ package gr.hua.dit.oopii.lec5.streams;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
@@ -13,7 +12,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class JacksonTester {
    
 	public static void main(String args[]) throws InterruptedException{
-      JacksonTester tester = new JacksonTester();
+      JacksonTester2 tester = new JacksonTester2();
       ArrayList<Student> arraylist_students = new ArrayList<>();
       
       
